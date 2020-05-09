@@ -7,7 +7,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Heading](#installation-instructions)**<br>
 **[Carousel](#carousel)**<br>
 
-#carousel
+# carousel
 
 ```jsx
 <Table>
