@@ -9,7 +9,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Images](#Images)**<br>
 **[Icons](#Icons)**<br>
 **[Carousel](#Carousel)**<br>
-**[Video](#Video)**<br>
+**[Accordion](#Accordion)**<br>
 
 # Heading
 
@@ -77,6 +77,10 @@ return (
 2. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
 3. [Table](https://developer.atlassian.com/platform/forge/ui-components/table/)
 
+### Forge UI hooks used
+
+4. [useState](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#usestate)
+
 ### Note
 
 1.  You may expect **delay** and you don't have smooth transition effect
@@ -103,3 +107,7 @@ return (
 ### Note
 
 1. Yes, it's not a video component, it's just a fallback.
+
+# Carousel
+
+Coming soon ...
