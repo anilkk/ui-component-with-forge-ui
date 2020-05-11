@@ -8,7 +8,8 @@ This is intended as a quick reference and showcase of common UI components using
 **[Layout](#Layout)**<br>
 **[Images](#Images)**<br>
 **[Icons](#Icons)**<br>
-**[Carousel](#carousel)**<br>
+**[Carousel](#Carousel)**<br>
+**[Video](#Video)**<br>
 
 # Heading
 
@@ -79,3 +80,26 @@ return (
 ### Note
 
 1.  You may expect **delay** and you don't have smooth transition effect
+
+# Video
+
+```jsx
+  <Image
+    src="https://res.cloudinary.com/anilkumark/image/upload/v1589197328/projects/forge/ui-components/Group_4_3_w6zihu.png"
+    alt="forge tunnel debug"
+  />
+  <Text>
+    [**Play Demo of Forge tunnel debug ▶️**](https://youtu.be/1AlzjCsczV4)
+  </Text>
+```
+
+![forge tunnel debug](./img/forge-tunnel--debug.png)
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+2. [Text](https://developer.atlassian.com/platform/forge/ui-components/button/)
+
+### Note
+
+1. Yes, it's not a video component, it's just a fallback.
