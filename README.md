@@ -121,4 +121,73 @@ Coming soon ...
 
 # Navbar
 
-Coming soon ...
+## Navbar with buttons
+
+```jsx
+<Table>
+  <Row>
+    <Cell>
+      <Image
+        src="https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589212010/projects/forge/ui-components/anil-logo_yq4vyu.png"
+        alt="demo logo"
+      />
+    </Cell>
+    {/* Create many empty Cell for spacing */}
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell>
+      <ButtonSet>
+        <Button text="Home" />
+        <Button text="About" />
+        <Button text="Contact" />
+      </ButtonSet>
+    </Cell>
+  </Row>
+</Table>
+```
+
+![Navbar using Forge UI](./img/navbar-with-buttons.png)
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+2. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
+3. [ButtonSet](https://developer.atlassian.com/platform/forge/ui-components/button-set/)
+4. [Table](https://developer.atlassian.com/platform/forge/ui-components/table/)
+
+## Navbar with text lnks
+
+```jsx
+<Table>
+  <Row>
+    <Cell>
+      <Image
+        src="https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589212010/projects/forge/ui-components/anil-logo_yq4vyu.png"
+        alt="demo logo"
+      />
+    </Cell>
+    {/* Create many empty Cell for spacing */}
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell>
+      <Text>
+        [Home](https://developer.atlassian.com/platform/forge)
+        {'  '} {/* For extra spacing */}
+        [Reference](https://developer.atlassian.com/platform/forge/manifest-reference/)
+        {'  '} {/* For extra spacing */}
+        [Help](https://developer.atlassian.com/platform/forge/get-help/)
+      </Text>
+    </Cell>
+  </Row>
+</Table>
+```
+
+![Navbar using Forge UI](./img/navbar-with-links.png)
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+2. [Text with link markdown](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+3. [Table](https://developer.atlassian.com/platform/forge/ui-components/table/)
