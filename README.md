@@ -98,7 +98,7 @@ return (
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
-2. [Text](https://developer.atlassian.com/platform/forge/ui-components/button/)
+2. [Text with link markdown](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
 ### Note
 
