@@ -9,7 +9,10 @@ This is intended as a quick reference and showcase of common UI components using
 **[Images](#Images)**<br>
 **[Icons](#Icons)**<br>
 **[Carousel](#Carousel)**<br>
+**[Video](#Video)**<br>
 **[Accordion](#Accordion)**<br>
+**[Modal](#Modal)**<br>
+**[Navbar](#Navbar)**<br>
 
 # Heading
 
@@ -108,6 +111,14 @@ return (
 
 1. Yes, it's not a video component, it's just a fallback.
 
-# Carousel
+# Accordion
+
+Coming soon ...
+
+# Modal
+
+Coming soon ...
+
+# Navbar
 
 Coming soon ...
