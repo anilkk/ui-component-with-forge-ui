@@ -5,6 +5,7 @@ This is intended as a quick reference and showcase of common UI components using
 ### Table of Contents
 
 **[Heading](#Heading)**<br>
+**[Link](#Link)**<br>
 **[Layout](#Layout)**<br>
 **[Images](#Images)**<br>
 **[Icons](#Icons)**<br>
@@ -17,6 +18,23 @@ This is intended as a quick reference and showcase of common UI components using
 # Heading
 
 Coming soon ...
+
+# Link
+
+```
+<Text>
+  [It's a link to my
+  project](https://github.com/anilkk/ui-component-with-forge-ui)
+</Text>
+```
+
+![Link demo](./img/link.png)
+
+### Forge UI components used
+
+1. [Text with link markdown](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+
+### Forge UI components used
 
 # Layout
 
