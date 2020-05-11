@@ -39,18 +39,7 @@ Coming soon ...
 
 # List
 
-```
-<Text>
-  [It's a link to my
-  project](https://github.com/anilkk/ui-component-with-forge-ui)
-</Text>
-```
-
-![Link demo](./img/link.png)
-
-### Forge UI components used
-
-1. [Text with link markdown](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+coming soon ...
 
 # Button
 
