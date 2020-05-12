@@ -16,6 +16,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Carousel](#Carousel)**<br>
 **[Video](#Video)**<br>
 **[Accordion](#Accordion)**<br>
+**[Alert](#Alert)**<br>
 **[Modal](#Modal)**<br>
 **[Navbar](#Navbar)**<br>
 
@@ -237,6 +238,38 @@ return (
 # Accordion
 
 Coming soon ...
+
+# Alert
+
+Alerts are available for any length of text. For proper styling, use one of the six **appearance** value (e.g., .inprogress).
+
+```jsx
+      <Text>
+        <Lozenge text="A simple default alert" appearance="default" />
+      </Text>
+      <Text>
+        <Lozenge text="A simple primary alert" appearance="inprogress" />
+      </Text>
+      <Text>
+        <Lozenge text="A simple info alert" appearance="new" />
+      </Text>
+      <Text>
+        <Lozenge text="A simple warning alert ⚠️" appearance="moved" />
+      </Text>
+      <Text>
+        <Lozenge text="A simple danger alert ⛔" appearance="removed" />
+      </Text>
+      <Text>
+        <Lozenge text="A simple success alert ✅" appearance="success" />
+      </Text>
+```
+
+![forge tunnel debug](./img/alert.png)
+
+### Forge UI components used
+
+1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+2. [Lozenge](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
 
 # Modal
 
