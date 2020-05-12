@@ -11,7 +11,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Button](#Button)**<br>
 **[ButtonSet](#ButtonSet)**<br>
 **[Layout](#Layout)**<br>
-**[Images](#Images)**<br>
+**[Image](#Image)**<br>
 **[Icons](#Icons)**<br>
 **[Carousel](#Carousel)**<br>
 **[Video](#Video)**<br>
@@ -146,9 +146,20 @@ return (
 
 Coming soon ...
 
-# Images
+# Image
 
-Coming soon ...
+```jsx
+<Image
+  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
+  alt="Berlin"
+/>
+```
+
+![Image demo](./img/image.png)
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 # Icons
 
@@ -236,6 +247,42 @@ return (
 1. Yes, it's not a video component, it's just a fallback.
 
 # Accordion
+
+Coming soon ...
+
+# Chart
+
+<!---
+Quick chart
+https://quickchart.io/
+-->
+
+Coming soon ...
+
+# Progress
+
+<!---
+Quick chart progress
+https://quickchart.io/
+https://getbootstrap.com/docs/4.4/components/progress/
+-->
+
+Coming soon ...
+
+# Pagination
+
+<!---
+https://getbootstrap.com/docs/4.4/components/pagination/
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+-->
 
 Coming soon ...
 
