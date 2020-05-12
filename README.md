@@ -39,7 +39,35 @@ Coming soon ...
 
 # List
 
-coming soon ...
+## unordered list
+
+```jsx
+<Text> - Item 1 </Text>
+<Text> - Item 2 </Text>
+<Text> - Item 3 </Text>
+<Text> - Item 4 </Text>
+```
+
+![Unordered list](./img/unordered-list.png)
+
+### Forge UI components used
+
+1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+
+## ordered list
+
+```jsx
+<Text> 1. Item 1 </Text>
+<Text> 2. Item 2 </Text>
+<Text> 3. Item 3 </Text>
+<Text> 4. Item 4 </Text>
+```
+
+![Ordered list](./img/ordered-list.png)
+
+### Forge UI components used
+
+1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
 # Button
 
