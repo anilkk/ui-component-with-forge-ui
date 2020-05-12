@@ -148,6 +148,8 @@ Coming soon ...
 
 # Image
 
+You don't have option to style image(example: width and height). It's good practice to pass correct image.
+
 ```jsx
 <Image
   src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
@@ -155,11 +157,39 @@ Coming soon ...
 />
 ```
 
-![Image demo](./img/image.png)
+![Image demo](https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50)
+
+## Thumbnail image
+
+```jsx
+<Image
+  src="https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg"
+  alt="Berlin"
+/>
+```
+
+![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
+
+## Round image
+
+```jsx
+<Image
+  src="https://res.cloudinary.com/anilkumark/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg"
+  alt="Berlin"
+/>
+```
+
+![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
 
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+
+### Note
+
+1. You can't style using CSS and so please your 3rd party services like [cloudinary](https://cloudinary.com/) to customize your image.
+
+
 
 # Icons
 
