@@ -189,11 +189,23 @@ You don't have option to style image(example: width and height). It's good pract
 
 1. You can't style using CSS and so please your 3rd party services like [cloudinary](https://cloudinary.com/) to customize your image.
 
-
-
 # Icons
 
-Coming soon ...
+You can use small [Image](#Image) component and you can also use emoji as icon with text.
+
+```jsx
+<Button text="✅ button with emoji icon" />
+```
+
+![Button text with icon emoji](./img/icon-emoji.png)
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+
+### Note
+
+1. You can find collection of emojis on [getemoji](https://getemoji.com/) and [emojipedia](https://emojipedia.org/).
 
 # Carousel
 
