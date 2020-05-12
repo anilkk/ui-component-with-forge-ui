@@ -22,7 +22,31 @@ This is intended as a quick reference and showcase of common UI components using
 
 It's tempting to think heading with HTML header tags (h1 to h2). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
 
-Coming soon ...
+### Strong text
+
+```
+  <Text> **It's a strong text**</Text>
+  <Text> __It's a strong text__</Text>
+```
+
+![strong text demo](./img/strong-text.png)
+
+### Forge UI components used
+
+1. [Strong text with star and underscore](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+
+### Emphasis text
+
+```
+  <Text> *It's a emphasis text*</Text>
+  <Text> _It's a emphasis text_</Text>
+```
+
+![emphasis text demo](./img/emphasis-text.png)
+
+### Forge UI components used
+
+1. [Emphasis text with star and underscore](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
 # Link
 
