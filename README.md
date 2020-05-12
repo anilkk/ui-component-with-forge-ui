@@ -16,13 +16,16 @@ This is intended as a quick reference and showcase of common UI components using
 **[Carousel](#Carousel)**<br>
 **[Video](#Video)**<br>
 **[Accordion](#Accordion)**<br>
+**[Progress](#Progress)**<br>
+**[Pagination](#Pagination)**<br>
+**[Chart](#Chart)**<br>
 **[Alert](#Alert)**<br>
 **[Modal](#Modal)**<br>
 **[Navbar](#Navbar)**<br>
 
 # Heading
 
-It's tempting to think heading with HTML header tags (h1 to h2). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
+It's tempting to think heading with HTML header tags (h1 to h6). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
 
 ## Strong text
 
