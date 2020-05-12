@@ -20,6 +20,8 @@ This is intended as a quick reference and showcase of common UI components using
 
 # Heading
 
+It's tempting to think heading with HTML header tags (h1 to h2). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
+
 Coming soon ...
 
 # Link
