@@ -7,6 +7,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Heading](#Heading)**<br>
 **[Link](#Link)**<br>
 **[List](#List)**<br>
+**[Code](#Code)**<br>
 **[Button](#Button)**<br>
 **[ButtonSet](#ButtonSet)**<br>
 **[Layout](#Layout)**<br>
@@ -22,7 +23,7 @@ This is intended as a quick reference and showcase of common UI components using
 
 It's tempting to think heading with HTML header tags (h1 to h2). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
 
-### Strong text
+## Strong text
 
 ```
   <Text> **It's a strong text**</Text>
@@ -35,7 +36,7 @@ It's tempting to think heading with HTML header tags (h1 to h2). But, we need to
 
 1. [Strong text with star and underscore](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
-### Emphasis text
+## Emphasis text
 
 ```
   <Text> *It's a emphasis text*</Text>
@@ -94,6 +95,23 @@ It's tempting to think heading with HTML header tags (h1 to h2). But, we need to
 ### Forge UI components used
 
 1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+
+# Code
+
+```jsx
+const sampleCode = `<Button text="sample button" onClick={() => { console.log('do some action')}}/>`;
+return (
+  <Fragment>
+    <Text>{sampleCode}</Text>
+  </Fragment>
+);
+```
+
+![Code demo](./img/code.png)
+
+### Forge UI components used
+
+1. [Text with markdown for code ](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 # Button
 
