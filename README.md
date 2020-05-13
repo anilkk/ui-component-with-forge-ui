@@ -473,7 +473,23 @@ Alerts are available for any length of text. For proper styling, use one of the 
 
 # Modal
 
-Coming soon ...
+```jsx
+const [isOpen, setOpen] = useState(false);
+<Button text="Show modal" onClick={() => setOpen(true)} />;
+{
+  isOpen && (
+    <ModalDialog header="My modal dialog" onClose={() => setOpen(false)}>
+      <Text>It's a ModalDialog</Text>
+    </ModalDialog>
+  );
+}
+```
+
+![ModalDialog](./img/modaldialog.gif)
+
+### Forge UI components used
+
+1. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components//modal-dialog/)
 
 # Navbar
 
