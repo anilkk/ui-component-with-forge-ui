@@ -441,6 +441,8 @@ const handleClick = (buttonPressed) => {
 
 # Alert
 
+### Using Lozenge
+
 Alerts are available for any length of text. For proper styling, use one of the six **appearance** value (e.g., .inprogress).
 
 ```jsx
@@ -466,10 +468,55 @@ Alerts are available for any length of text. For proper styling, use one of the 
 
 ![forge tunnel debug](./img/alert.png)
 
+### Using ModalDialog
+
+#### Danger ModelDialog
+
+```jsx
+const [isOpen, setIsOpen] = useState(false);
+
+<Button text="Show modal" onClick={() => setIsOpen(true)} />;
+{
+  isOpen && (
+    <ModalDialog
+      header="My modal dialog"
+      onClose={() => setIsOpen(false)}
+      appearance="danger"
+    >
+      <Text>It's a ModalDialog danger on the header</Text>
+    </ModalDialog>
+  );
+}
+```
+
+![danger ModalDialog](./img/danger-modal-dialog.png)
+
+#### Warning ModelDialog
+
+```jsx
+const [isOpen, setIsOpen] = useState(false);
+
+<Button text="Show modal" onClick={() => setIsOpen(true)} />;
+{
+  isOpen && (
+    <ModalDialog
+      header="My modal dialog"
+      onClose={() => setIsOpen(false)}
+      appearance="warning"
+    >
+      <Text>It's a ModalDialog warning on the header</Text>
+    </ModalDialog>
+  );
+}
+```
+
+![danger ModalDialog](./img/danger-modal-dialog.png)
+
 ### Forge UI components used
 
 1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 2. [Lozenge](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+3. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components/modal-dialog)
 
 # Modal
 
