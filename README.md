@@ -15,7 +15,7 @@ This is intended as a quick reference and showcase of common UI components using
 **[Icons](#Icons)**<br>
 **[Carousel](#Carousel)**<br>
 **[Video](#Video)**<br>
-**[Accordion](#Accordion)**<br>
+**[Collapse](#Collapse)**<br>
 **[Progress](#Progress)**<br>
 **[Pagination](#Pagination)**<br>
 **[Chart](#Chart)**<br>
@@ -291,9 +291,27 @@ return (
 
 1. Yes, it's not a video component, it's just a fallback.
 
-# Accordion
+# Collapse
 
-Coming soon ...
+```jsx
+const [isOpen, setIsOpen] = useState(false);
+<Button
+  text="Toggle text view"
+  onClick={() => {
+    setIsOpen(!isOpen);
+  }}
+/>;
+{
+  isOpen && <Text>It's a collapsable text content</Text>;
+}
+```
+
+![collapse](./img/collapse.gif)
+
+### Forge UI components used
+
+1. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
+1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 # Chart
 
@@ -305,6 +323,10 @@ Coming soon ...
 ```
 
 ![progress](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 ### Note
 
