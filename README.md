@@ -297,22 +297,37 @@ Coming soon ...
 
 # Chart
 
-<!---
-Quick chart
-https://quickchart.io/
--->
+```jsx
+<Image
+  src="https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}}"
+  alt="progress"
+/>
+```
 
-Coming soon ...
+![progress](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
+
+### Note
+
+1. For more details refer documentation [quickchart](https://quickchart.io/documentation/).
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 # Progress
 
-<!---
-Quick chart progress
-https://quickchart.io/
-https://getbootstrap.com/docs/4.4/components/progress/
--->
+```jsx
+<Image
+  src="https://quickchart.io/chart?c={type:'radialGauge',data:{datasets:[{data:[70],backgroundColor:'blue'}]}}"
+  alt="progress"
+/>
+```
 
-Coming soon ...
+![progress](https://quickchart.io/chart?c={type:'radialGauge',data:{datasets:[{data:[70],backgroundColor:'blue'}]}})
+
+### Forge UI components used
+
+1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 # Pagination
 
