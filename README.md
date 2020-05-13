@@ -316,20 +316,52 @@ Coming soon ...
 
 # Pagination
 
-<!---
-https://getbootstrap.com/docs/4.4/components/pagination/
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
--->
+```jsx
+const handleClick = (buttonPressed) => {
+  console.log('buttonPressed ---->', buttonPressed);
+};
 
-Coming soon ...
+<ButtonSet>
+  <Button
+    text="Previous"
+    onClick={(event) => {
+      console.log('EVENT ---->', event);
+      handleClick('Previous');
+    }}
+  />
+  <Button
+    text="2"
+    onClick={() => {
+      handleClick(2);
+    }}
+  />
+  <Button
+    text="3"
+    onClick={() => {
+      handleClick(3);
+    }}
+  />
+  <Button
+    text="4"
+    onClick={() => {
+      handleClick(4);
+    }}
+  />
+  <Button
+    text="Next"
+    onClick={() => {
+      handleClick('Next');
+    }}
+  />
+</ButtonSet>;
+```
+
+![pagination demo](./img/pagination.png)
+
+### Forge UI components used
+
+1. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
+2. [ButtonSet](https://developer.atlassian.com/platform/forge/ui-components/text/#button-set)
 
 # Alert
 
