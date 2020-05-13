@@ -147,7 +147,46 @@ return (
 
 # Layout
 
-Coming soon ...
+### Two columns
+
+```jsx
+<Image
+  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
+  alt="Berlin"
+/>
+```
+
+![Two columns](./img/two-columns.png)
+
+### Three columns
+
+```jsx
+<Image
+  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
+  alt="Berlin"
+/>
+```
+
+![Three columns](./img/three-columns.png)
+
+### Columns with spacing
+
+```jsx
+<Image
+  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
+  alt="Berlin"
+/>
+```
+
+![columns with spacing demo](./img/column-with-spacing.png)
+
+### Forge UI components used
+
+1. [Table](https://developer.atlassian.com/platform/forge/ui-components/table/)
+
+### Note
+
+1. Be careful while using Table cells as a column, same UI is also rendred on the mobile apps.
 
 # Image
 
