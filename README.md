@@ -8,6 +8,9 @@ This is intended as a quick reference and showcase of common UI components using
 
 # WHY?
 
+- It's common to think your Forge apps UI interms of common UI components, but FORGE has very few components. It's an attempt to build commom UI cpmponents using **[FORGE UI](https://developer.atlassian.com/platform/forge/ui-components/)**
+- **DON"T REINVENT THE WHEEL**, use already existing common _UI pattern_ and _reuse_ in your app.
+
 ### Table of Contents
 
 - **[Heading](#Heading)**<br>
