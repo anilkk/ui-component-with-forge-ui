@@ -10,6 +10,7 @@ This is a quick reference and showcase of standard UI components using the **For
 
 - It's common to think your Forge apps UI in terms of standard UI components(example: Carousel, Pagination, ...), but _FORGE UI_ has very few components. It's an attempt to build standard UI components using **[FORGE UI](https://developer.atlassian.com/platform/forge/ui-components/)**
 - **DON'T REINVENT THE WHEEL**, use already existing standard _UI pattern_ in your app.
+- **LESS IS MORE**, to show Forge UI components are sufficient to create most of the standard UI components.
 
 ### Table of Contents
 
