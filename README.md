@@ -546,7 +546,7 @@ const [isOpen, setIsOpen] = useState(false);
 
 #### Warning ModelDialog
 
-![danger ModalDialog](./img/danger-modal-dialog.png)
+![warning ModalDialog](./img/warning-modal-dialog.png)
 
 ```jsx
 const [isOpen, setIsOpen] = useState(false);
