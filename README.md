@@ -13,24 +13,24 @@ This is a quick reference and showcase of standard UI components using the **For
 
 ### Table of Contents
 
-- **[Heading](#Heading)**<br>
-- **[Link](#Link)**<br>
-- **[List](#List)**<br>
-- **[Code](#Code)**<br>
-- **[Button](#Button)**<br>
-- **[ButtonSet](#ButtonSet)**<br>
-- **[Layout](#Layout)**<br>
-- **[Image](#Image)**<br>
-- **[Icons](#Icons)**<br>
-- **[Carousel](#Carousel)**<br>
-- **[Video](#Video)**<br>
-- **[Collapse](#Collapse)**<br>
-- **[Progress](#Progress)**<br>
-- **[Pagination](#Pagination)**<br>
-- **[Chart](#Chart)**<br>
-- **[Alert](#Alert)**<br>
-- **[Modal](#Modal)**<br>
-- **[Navbar](#Navbar)**<br>
+- **[Heading](#heading)**<br>
+- **[Link](#link)**<br>
+- **[List](#list)**<br>
+- **[Code](#code)**<br>
+- **[Button](#button)**<br>
+- **[ButtonSet](#buttonSet)**<br>
+- **[Layout](#layout)**<br>
+- **[Image](#image)**<br>
+- **[Icons](#icons)**<br>
+- **[Carousel](#carousel)**<br>
+- **[Video](#video)**<br>
+- **[Collapse](#collapse)**<br>
+- **[Progress](#progress)**<br>
+- **[Pagination](#pagination)**<br>
+- **[Chart](#chart)**<br>
+- **[Alert](#alert)**<br>
+- **[Modal](#modal)**<br>
+- **[Navbar](#navbar)**<br>
 
 # Heading
 
