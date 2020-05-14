@@ -1,6 +1,11 @@
-# ui-component-with-forge-ui
+![Banner](./img/banner.png)
+
+# Common UI components using FORGE UI
 
 This is intended as a quick reference and showcase of common UI components using the **Forge UI**. For more complete info, see [Forge UI components developer documentation](https://developer.atlassian.com/platform/forge/ui-components/).
+
+# WHY?
+
 
 ### Table of Contents
 
@@ -29,12 +34,12 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 ## Strong text
 
+![strong text demo](./img/strong-text.png)
+
 ```
   <Text> **It's a strong text**</Text>
   <Text> __It's a strong text__</Text>
 ```
-
-![strong text demo](./img/strong-text.png)
 
 ### Forge UI components used
 
@@ -42,12 +47,12 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 ## Emphasis text
 
+![emphasis text demo](./img/emphasis-text.png)
+
 ```
   <Text> *It's a emphasis text*</Text>
   <Text> _It's a emphasis text_</Text>
 ```
-
-![emphasis text demo](./img/emphasis-text.png)
 
 ### Forge UI components used
 
@@ -55,14 +60,14 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 # Link
 
+![Link demo](./img/link.png)
+
 ```
 <Text>
   [It's a link to my
   project](https://github.com/anilkk/ui-component-with-forge-ui)
 </Text>
 ```
-
-![Link demo](./img/link.png)
 
 ### Forge UI components used
 
@@ -72,6 +77,8 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 ## unordered list
 
+![Unordered list](./img/unordered-list.png)
+
 ```jsx
 <Text> - Item 1 </Text>
 <Text> - Item 2 </Text>
@@ -79,13 +86,13 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 <Text> - Item 4 </Text>
 ```
 
-![Unordered list](./img/unordered-list.png)
-
 ### Forge UI components used
 
 1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
 ## ordered list
+
+![Ordered list](./img/ordered-list.png)
 
 ```jsx
 <Text> 1. Item 1 </Text>
@@ -94,13 +101,13 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 <Text> 4. Item 4 </Text>
 ```
 
-![Ordered list](./img/ordered-list.png)
-
 ### Forge UI components used
 
-1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
+1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
 # Code
+
+![Code demo](./img/code.png)
 
 ```jsx
 const sampleCode = `<Button text="sample button" onClick={() => { console.log('do some action')}}/>`;
@@ -111,19 +118,17 @@ return (
 );
 ```
 
-![Code demo](./img/code.png)
-
 ### Forge UI components used
 
 1. [Text with markdown for code ](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 # Button
 
+![Button demo](./img/button.png)
+
 ```jsx
 <Button text="demo button" onClick={() => console.log('perform action')} />
 ```
-
-![Button demo](./img/button.png)
 
 ### Forge UI components used
 
@@ -131,14 +136,14 @@ return (
 
 # ButtonSet
 
+![Link demo](./img/buttons-group.png)
+
 ```jsx
 <ButtonSet>
   <Button text="demo button 1" onClick={() => console.log('perform action')} />
   <Button text="demo button 2" onClick={() => console.log('perform action')} />
 </ButtonSet>
 ```
-
-![Link demo](./img/buttons-group.png)
 
 ### Forge UI components used
 
@@ -149,36 +154,36 @@ return (
 
 ### Two columns
 
+![Two columns](./img/two-columns.png)
+
 ```jsx
 <Image
   src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
   alt="Berlin"
 />
 ```
-
-![Two columns](./img/two-columns.png)
 
 ### Three columns
 
+![Three columns](./img/three-columns.png)
+
 ```jsx
 <Image
   src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
   alt="Berlin"
 />
 ```
-
-![Three columns](./img/three-columns.png)
 
 ### Columns with spacing
 
+![columns with spacing demo](./img/column-with-spacing.png)
+
 ```jsx
 <Image
   src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
   alt="Berlin"
 />
 ```
-
-![columns with spacing demo](./img/column-with-spacing.png)
 
 ### Forge UI components used
 
@@ -192,6 +197,8 @@ return (
 
 You don't have option to style image(example: width and height). It's good practice to pass correct image.
 
+![Image demo](https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50)
+
 ```jsx
 <Image
   src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
@@ -199,9 +206,9 @@ You don't have option to style image(example: width and height). It's good pract
 />
 ```
 
-![Image demo](https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50)
-
 ## Thumbnail image
+
+![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
 
 ```jsx
 <Image
@@ -210,9 +217,9 @@ You don't have option to style image(example: width and height). It's good pract
 />
 ```
 
-![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/c_thumb,w_200,g_face/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
-
 ## Round image
+
+![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
 
 ```jsx
 <Image
@@ -220,8 +227,6 @@ You don't have option to style image(example: width and height). It's good pract
   alt="Berlin"
 />
 ```
-
-![Thumbnail](https://res.cloudinary.com/anilkumark/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1589315094/projects/forge/ui-components/photo-1560969184-10fe8719e047_hfksqn.jpg)
 
 ### Forge UI components used
 
@@ -235,11 +240,11 @@ You don't have option to style image(example: width and height). It's good pract
 
 You can use small [Image](#Image) component and you can also use emoji as icon with text.
 
+![Button text with icon emoji](./img/icon-emoji.png)
+
 ```jsx
 <Button text="✅ button with emoji icon" />
 ```
-
-![Button text with icon emoji](./img/icon-emoji.png)
 
 ### Forge UI components used
 
@@ -250,6 +255,8 @@ You can use small [Image](#Image) component and you can also use emoji as icon w
 1. You can find collection of emojis on [getemoji](https://getemoji.com/) and [emojipedia](https://emojipedia.org/).
 
 # Carousel
+
+![Carousel demo](./img/carousel-demo.gif)
 
 ```jsx
 const [images] = useState(() => {
@@ -291,8 +298,6 @@ return (
 );
 ```
 
-![Carousel demo](./img/carousel-demo.gif)
-
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
@@ -309,6 +314,8 @@ return (
 
 # Video
 
+![forge tunnel debug](./img/forge-tunnel--debug.png)
+
 ```jsx
   <Image
     src="https://res.cloudinary.com/anilkumark/image/upload/v1589197328/projects/forge/ui-components/Group_4_3_w6zihu.png"
@@ -318,8 +325,6 @@ return (
     [**Play Demo of Forge tunnel debug ▶️**](https://youtu.be/1AlzjCsczV4)
   </Text>
 ```
-
-![forge tunnel debug](./img/forge-tunnel--debug.png)
 
 ### Forge UI components used
 
@@ -331,6 +336,8 @@ return (
 1. Yes, it's not a video component, it's just a fallback.
 
 # Collapse
+
+![collapse](./img/collapse.gif)
 
 ```jsx
 const [isOpen, setIsOpen] = useState(false);
@@ -345,8 +352,6 @@ const [isOpen, setIsOpen] = useState(false);
 }
 ```
 
-![collapse](./img/collapse.gif)
-
 ### Forge UI components used
 
 1. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
@@ -354,14 +359,14 @@ const [isOpen, setIsOpen] = useState(false);
 
 # Chart
 
+![progress](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
+
 ```jsx
 <Image
   src="https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}}"
   alt="progress"
 />
 ```
-
-![progress](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
 
 ### Forge UI components used
 
@@ -391,6 +396,8 @@ const [isOpen, setIsOpen] = useState(false);
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 # Pagination
+
+![pagination demo](./img/pagination.png)
 
 ```jsx
 const handleClick = (buttonPressed) => {
@@ -432,8 +439,6 @@ const handleClick = (buttonPressed) => {
 </ButtonSet>;
 ```
 
-![pagination demo](./img/pagination.png)
-
 ### Forge UI components used
 
 1. [Button](https://developer.atlassian.com/platform/forge/ui-components/button/)
@@ -441,9 +446,11 @@ const handleClick = (buttonPressed) => {
 
 # Alert
 
-### Using Lozenge
+## Using Lozenge
 
 Alerts are available for any length of text. For proper styling, use one of the six **appearance** value (e.g., .inprogress).
+
+![forge tunnel debug](./img/alert.png)
 
 ```jsx
       <Text>
@@ -466,11 +473,11 @@ Alerts are available for any length of text. For proper styling, use one of the 
       </Text>
 ```
 
-![forge tunnel debug](./img/alert.png)
-
-### Using ModalDialog
+## Using ModalDialog
 
 #### Danger ModelDialog
+
+![danger ModalDialog](./img/danger-modal-dialog.png)
 
 ```jsx
 const [isOpen, setIsOpen] = useState(false);
@@ -489,9 +496,9 @@ const [isOpen, setIsOpen] = useState(false);
 }
 ```
 
-![danger ModalDialog](./img/danger-modal-dialog.png)
-
 #### Warning ModelDialog
+
+![danger ModalDialog](./img/danger-modal-dialog.png)
 
 ```jsx
 const [isOpen, setIsOpen] = useState(false);
@@ -510,8 +517,6 @@ const [isOpen, setIsOpen] = useState(false);
 }
 ```
 
-![danger ModalDialog](./img/danger-modal-dialog.png)
-
 ### Forge UI components used
 
 1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
@@ -519,6 +524,8 @@ const [isOpen, setIsOpen] = useState(false);
 3. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components/modal-dialog)
 
 # Modal
+
+![ModalDialog](./img/modaldialog.gif)
 
 ```jsx
 const [isOpen, setOpen] = useState(false);
@@ -532,8 +539,6 @@ const [isOpen, setOpen] = useState(false);
 }
 ```
 
-![ModalDialog](./img/modaldialog.gif)
-
 ### Forge UI components used
 
 1. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components//modal-dialog/)
@@ -541,6 +546,8 @@ const [isOpen, setOpen] = useState(false);
 # Navbar
 
 ## Navbar with buttons
+
+![Navbar using Forge UI](./img/navbar-with-buttons.png)
 
 ```jsx
 <Table>
@@ -566,8 +573,6 @@ const [isOpen, setOpen] = useState(false);
 </Table>
 ```
 
-![Navbar using Forge UI](./img/navbar-with-buttons.png)
-
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
@@ -576,6 +581,8 @@ const [isOpen, setOpen] = useState(false);
 4. [Table](https://developer.atlassian.com/platform/forge/ui-components/table/)
 
 ## Navbar with text lnks
+
+![Navbar using Forge UI](./img/navbar-with-links.png)
 
 ```jsx
 <Table>
@@ -602,8 +609,6 @@ const [isOpen, setOpen] = useState(false);
   </Row>
 </Table>
 ```
-
-![Navbar using Forge UI](./img/navbar-with-links.png)
 
 ### Forge UI components used
 
