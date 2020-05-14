@@ -166,10 +166,16 @@ return (
 ![Two columns](./img/two-columns.png)
 
 ```jsx
-<Image
-  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
-  alt="Berlin"
-/>
+<Table>
+  <Row>
+    <Cell>
+      <Text>Column 1</Text>
+    </Cell>
+    <Cell>
+      <Text>Column 2</Text>
+    </Cell>
+  </Row>
+</Table>
 ```
 
 ### Three columns
@@ -177,10 +183,19 @@ return (
 ![Three columns](./img/three-columns.png)
 
 ```jsx
-<Image
-  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
-  alt="Berlin"
-/>
+<Table>
+  <Row>
+    <Cell>
+      <Text>Column 1</Text>
+    </Cell>
+    <Cell>
+      <Text>Column 2</Text>
+    </Cell>
+    <Cell>
+      <Text>Column 3</Text>
+    </Cell>
+  </Row>
+</Table>
 ```
 
 ### Columns with spacing
@@ -188,10 +203,24 @@ return (
 ![columns with spacing demo](./img/column-with-spacing.png)
 
 ```jsx
-<Image
-  src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50"
-  alt="Berlin"
-/>
+<Table>
+  <Row>
+    <Cell>
+      <Text>Column 1</Text>
+    </Cell>
+    <Cell>
+      <Text>Column 2</Text>
+    </Cell>
+    {/* Empty cells for spacing */}
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell></Cell>
+    <Cell>
+      <Text>Column 3</Text>
+    </Cell>
+  </Row>
+</Table>
 ```
 
 ### Forge UI components used
