@@ -4,12 +4,12 @@
 
 # Common UI components using FORGE UI
 
-This is intended as a quick reference and showcase of common UI components using the **Forge UI**. For more complete info, see [Forge UI components developer documentation](https://developer.atlassian.com/platform/forge/ui-components/).
+This is a quick reference and showcase of standard UI components using the **Forge UI**. For complete info, see [Forge UI components developer documentation](https://developer.atlassian.com/platform/forge/ui-components/).
 
 # WHY?
 
-- It's common to think your Forge apps UI interms of common UI components, but FORGE has very few components. It's an attempt to build commom UI cpmponents using **[FORGE UI](https://developer.atlassian.com/platform/forge/ui-components/)**
-- **DON"T REINVENT THE WHEEL**, use already existing common _UI pattern_ and _reuse_ in your app.
+- It's common to think your Forge apps UI in terms of standard UI components(example: Carousel, Pagination, ...), but _FORGE UI_ has very few components. It's an attempt to build standard UI components using **[FORGE UI](https://developer.atlassian.com/platform/forge/ui-components/)**
+- **DON"T REINVENT THE WHEEL**, use already existing standard _UI pattern_ and _reuse_ in your app.
 
 ### Table of Contents
 
@@ -34,7 +34,7 @@ This is intended as a quick reference and showcase of common UI components using
 
 # Heading
 
-It's tempting to think heading with HTML header tags (h1 to h6). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embeded in the Atlassian products (JIRA, Confluence, page).
+It's tempting to think about heading with HTML header tags (h1 to h6). But, we need to understand [Forge](https://www.atlassian.com/forge) apps are embedded in the Atlassian products (JIRA, Confluence page ..,). Consider using **strong text** or _emphasis text_ for **important** or **header** content.
 
 ## Strong text
 
@@ -79,7 +79,7 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 # List
 
-## unordered list
+## Unordered list
 
 ![Unordered list](./img/unordered-list.png)
 
@@ -94,7 +94,7 @@ It's tempting to think heading with HTML header tags (h1 to h6). But, we need to
 
 1.  [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
 
-## ordered list
+## Ordered list
 
 ![Ordered list](./img/ordered-list.png)
 
@@ -125,6 +125,10 @@ return (
 ### Forge UI components used
 
 1. [Text with markdown for code ](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+### Note
+
+1.  ⚠️ Passing code as a string might not work. Example: I tried to Forge UI component, it doesn't work. But, if you give as a reference, it works as shown in the above code sample.
 
 # Button
 
@@ -195,11 +199,11 @@ return (
 
 ### Note
 
-1. Be careful while using Table cells as a column, same UI is also rendred on the mobile apps.
+1. ⚠️ Be careful while using Table cells as a column, same UI is also rendred on the mobile apps.
 
 # Image
 
-You don't have option to style image(example: width and height). It's good practice to pass correct image.
+You don't have the option to style image(example: width and height). It's good practice to pass formatted images with _right dimention_ and _style_.
 
 ![Image demo](https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=50)
 
@@ -238,11 +242,11 @@ You don't have option to style image(example: width and height). It's good pract
 
 ### Note
 
-1. You can't style using CSS and so please your 3rd party services like [cloudinary](https://cloudinary.com/) to customize your image.
+1. You can't style using CSS and so use _3rd party_ services like [cloudinary](https://cloudinary.com/) to customize your image if possible.
 
 # Icons
 
-You can use small [Image](#Image) component and you can also use emoji as icon with text.
+You can use a small [Image](#Image) component, or you can also use emoji as an icon with text.
 
 ![Button text with icon emoji](./img/icon-emoji.png)
 
@@ -256,7 +260,7 @@ You can use small [Image](#Image) component and you can also use emoji as icon w
 
 ### Note
 
-1. You can find collection of emojis on [getemoji](https://getemoji.com/) and [emojipedia](https://emojipedia.org/).
+1. You can find a collection of emojis on [getemoji](https://getemoji.com/) and [emojipedia](https://emojipedia.org/).
 
 # Carousel
 
@@ -310,13 +314,15 @@ return (
 
 ### Forge UI hooks used
 
-4. [useState](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#usestate)
+1. [useState](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#usestate)
 
 ### Note
 
-1.  You may expect **delay** and you don't have smooth transition effect
+1.  You may expect **delay**, and you don't have a smooth transition effect.
 
 # Video
+
+It's not a video component; it's just a fallback with _image_ and _link_.
 
 ![forge tunnel debug](./img/forge-tunnel--debug.png)
 
@@ -337,7 +343,7 @@ return (
 
 ### Note
 
-1. Yes, it's not a video component, it's just a fallback.
+1. Yes, it's not a video component, it's just a fallback with image and link.
 
 # Collapse
 
@@ -363,7 +369,9 @@ const [isOpen, setIsOpen] = useState(false);
 
 # Chart
 
-![progress](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
+Using 3rd party service [quickchart](https://quickchart.io/documentation/).
+
+![Chart](https://quickchart.io/chart?bkg=white&c={type:%27bar%27,data:{labels:[2012,2013,2014,2015,2016],datasets:[{label:%27Users%27,data:[120,60,50,180,120]}]}})
 
 ```jsx
 <Image
@@ -378,13 +386,15 @@ const [isOpen, setIsOpen] = useState(false);
 
 ### Note
 
-1. For more details refer documentation [quickchart](https://quickchart.io/documentation/).
+1.  For more details refer to the documentation [quickchart](https://quickchart.io/documentation/).
 
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
 # Progress
+
+Using 3rd party service [quickchart](https://quickchart.io/documentation/).
 
 ```jsx
 <Image
@@ -398,6 +408,10 @@ const [isOpen, setIsOpen] = useState(false);
 ### Forge UI components used
 
 1. [Image](https://developer.atlassian.com/platform/forge/ui-components/image/)
+
+### Note
+
+1.  For more details refer to the documentation [quickchart](https://quickchart.io/documentation/).
 
 # Pagination
 
@@ -546,6 +560,10 @@ const [isOpen, setOpen] = useState(false);
 ### Forge UI components used
 
 1. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components//modal-dialog/)
+
+### Forge UI hooks used
+
+1. [useState](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#usestate)
 
 # Navbar
 
