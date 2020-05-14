@@ -1,4 +1,6 @@
-![Banner](./img/banner.png)
+<p align="center" style="margin-bottom: -20px">
+  <img src="./img/banner.png">
+</p>
 
 # Common UI components using FORGE UI
 
@@ -6,27 +8,26 @@ This is intended as a quick reference and showcase of common UI components using
 
 # WHY?
 
-
 ### Table of Contents
 
-**[Heading](#Heading)**<br>
-**[Link](#Link)**<br>
-**[List](#List)**<br>
-**[Code](#Code)**<br>
-**[Button](#Button)**<br>
-**[ButtonSet](#ButtonSet)**<br>
-**[Layout](#Layout)**<br>
-**[Image](#Image)**<br>
-**[Icons](#Icons)**<br>
-**[Carousel](#Carousel)**<br>
-**[Video](#Video)**<br>
-**[Collapse](#Collapse)**<br>
-**[Progress](#Progress)**<br>
-**[Pagination](#Pagination)**<br>
-**[Chart](#Chart)**<br>
-**[Alert](#Alert)**<br>
-**[Modal](#Modal)**<br>
-**[Navbar](#Navbar)**<br>
+- **[Heading](#Heading)**<br>
+- **[Link](#Link)**<br>
+- **[List](#List)**<br>
+- **[Code](#Code)**<br>
+- **[Button](#Button)**<br>
+- **[ButtonSet](#ButtonSet)**<br>
+- **[Layout](#Layout)**<br>
+- **[Image](#Image)**<br>
+- **[Icons](#Icons)**<br>
+- **[Carousel](#Carousel)**<br>
+- **[Video](#Video)**<br>
+- **[Collapse](#Collapse)**<br>
+- **[Progress](#Progress)**<br>
+- **[Pagination](#Pagination)**<br>
+- **[Chart](#Chart)**<br>
+- **[Alert](#Alert)**<br>
+- **[Modal](#Modal)**<br>
+- **[Navbar](#Navbar)**<br>
 
 # Heading
 
