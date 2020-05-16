@@ -115,21 +115,12 @@ It's tempting to think about heading with HTML header tags (h1 to h6). But, we n
 ![Code demo](./img/code.png)
 
 ```jsx
-const sampleCode = `<Button text="sample button" onClick={() => { console.log('do some action')}}/>`;
-return (
-  <Fragment>
-    <Text>{sampleCode}</Text>
-  </Fragment>
-);
+<Text>{`<Text>sample text</Text>`}</Text>
 ```
 
 ### Forge UI components used
 
 1. [Text with markdown for code ](https://developer.atlassian.com/platform/forge/ui-components/text/)
-
-### Note
-
-1.  ⚠️ Passing code as a string might not work. Example: I tried to Forge UI component, it doesn't work. But, if you give as a reference, it works as shown in the above code sample.
 
 # Button
 
