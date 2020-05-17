@@ -112,7 +112,7 @@ It's tempting to think about heading with HTML header tags (h1 to h6). But, we n
 
 # Code
 
-![Code demo](./img/code.png)
+![Code demo](./img/code-component.png)
 
 ```jsx
 <Text>{`<Text>sample text</Text>`}</Text>
