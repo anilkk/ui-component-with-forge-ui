@@ -12,6 +12,11 @@ This is a quick reference and showcase of standard UI components using the **For
 - **DON'T REINVENT THE WHEEL**, use already existing standard _UI pattern_ in your app.
 - **LESS IS MORE**, to show Forge UI components are sufficient to create most of the standard UI components.
 
+## Forge UI Design Principles
+
+1. **Ease and speed over flexibility**. Minimise options to stay lighting fast.
+2. **Provide direction**. Components are moleculer and composed and avoid minutiae
+
 ### Table of Contents
 
 - **[Heading](#heading)**<br>
