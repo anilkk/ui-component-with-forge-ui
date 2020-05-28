@@ -490,7 +490,7 @@ const handleClick = (buttonPressed) => {
 
 # Alert
 
-## Using Lozenge
+## Using StatusLozenge
 
 Alerts are available for any length of text. For proper styling, use one of the six **appearance** value (e.g., .inprogress).
 
@@ -498,22 +498,22 @@ Alerts are available for any length of text. For proper styling, use one of the 
 
 ```jsx
       <Text>
-        <Lozenge text="A simple default alert" appearance="default" />
+        <StatusLozenge text="A simple default alert" appearance="default" />
       </Text>
       <Text>
-        <Lozenge text="A simple primary alert" appearance="inprogress" />
+        <StatusLozenge text="A simple primary alert" appearance="inprogress" />
       </Text>
       <Text>
-        <Lozenge text="A simple info alert" appearance="new" />
+        <StatusLozenge text="A simple info alert" appearance="new" />
       </Text>
       <Text>
-        <Lozenge text="A simple warning alert ⚠️" appearance="moved" />
+        <StatusLozenge text="A simple warning alert ⚠️" appearance="moved" />
       </Text>
       <Text>
-        <Lozenge text="A simple danger alert ⛔" appearance="removed" />
+        <StatusLozenge text="A simple danger alert ⛔" appearance="removed" />
       </Text>
       <Text>
-        <Lozenge text="A simple success alert ✅" appearance="success" />
+        <StatusLozenge text="A simple success alert ✅" appearance="success" />
       </Text>
 ```
 
@@ -564,7 +564,7 @@ const [isOpen, setIsOpen] = useState(false);
 ### Forge UI components used
 
 1. [Text](https://developer.atlassian.com/platform/forge/ui-components/text/#text)
-2. [Lozenge](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+2. [StatusLozenge](https://developer.atlassian.com/platform/forge/ui-components/text/#statuslozenge)
 3. [ModalDialog](https://developer.atlassian.com/platform/forge/ui-components/modal-dialog)
 
 # Modal
